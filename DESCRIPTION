@@ -1,3 +1,5 @@
+Package: dsm-lab
+
 Imports:
     testthat,
     knitr
