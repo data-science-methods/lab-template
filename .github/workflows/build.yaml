@@ -9,21 +9,21 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   tests:
     # The type of runner that the job will run on
-    runs-on: macos-latest
+    runs-on: macos-11
     
     # Steps are the tasks that the job will execute
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # Cache dependencies
       # NB path depends on runner
       - name: Cache R packages
-        uses: actions/cache@v2
+        uses: actions/cache@v3.0.5
         env:
           cache-name: cache-packages
         with:
-          path: /Users/runner/Library/R/x86_64/4.1/library
+          path: /Users/runner/Library/R/x86_64/4.2/library
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('DESCRIPTION') }}
           
       # Install dependencies from DESCRIPTION

@@ -12,6 +12,7 @@
 
 #' # Reflexivity #
 #' *Before starting the lab, spend 5 minutes writing a response to each reflexivity question.  Use a timer.  Answer these questions off the top of your head: don't worry about consulting or citing outside sources or about getting the answers "right" or "wrong."* 
+#' (Adapted from Tanweer et al., "Why the Data Revolution Needs Qualititative Thinking," <https://doi.org/10.1162/99608f92.eee0b0da>, and Liboiron, _Pollution is Colonialism_, <https://www.dukeupress.edu/pollution-is-colonialism>.) 
 #' 1. *What do I already know about this subject?*
 #' 2. *Why am I studying this?*
 #' 3. *What do I expect or hope to find/learn, and why?*
