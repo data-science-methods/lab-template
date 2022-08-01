@@ -1,4 +1,9 @@
 Package: dsm-lab
+Version: 0.0.0
+License: Unlimited
+Title: Data Science Methods Lab
+Description: Data Science Methods Lab
+Author: NA
 Imports:
     testthat,
     knitr
