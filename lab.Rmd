@@ -1,30 +1,42 @@
-#' ---
-#' title: "Data Science Methods, Lab for Week 99"
-#' author: "Your Name"
-#' email: Your Email
-#' output:
-#'   html_document:
-#'     toc: true
-#' ---
+---
+title: "Data Science Methods, Lab X: Title"
+author: "Your Name"
+output:
+  html_document:
+    toc: true
+---
+# Introduction #
 
-#' # Introduction #
-#' 
 
-#' # Reflexivity #
-#' *Before starting the lab, spend 5 minutes writing a response to each reflexivity question.  Use a timer.  Answer these questions off the top of your head: don't worry about consulting or citing outside sources or about getting the answers "right" or "wrong."* 
-#' (Adapted from Tanweer et al., "Why the Data Revolution Needs Qualititative Thinking," <https://doi.org/10.1162/99608f92.eee0b0da>, and Liboiron, _Pollution is Colonialism_, <https://www.dukeupress.edu/pollution-is-colonialism>.) 
-#' 1. *What do I already know about this subject?*
-#' 2. *Why am I studying this?*
-#' 3. *What do I expect or hope to find/learn, and why?*
-#' 4. *Who is affected by this topic, and how am I connected to them?* 
-#' 
+# Reflexivity #
 
-#' # Setup #
-#' **IMPORTANT**: Add all dependencies to `DESCRIPTION`
+Before starting the lab, spend 5 minutes writing a response to each reflexivity question.  Use a timer.  Answer these questions off the top of your head: don't worry about consulting or citing outside sources or about getting the answers "right" or "wrong." 
+(Adapted from Tanweer et al., "Why the Data Revolution Needs Qualititative Thinking," <https://doi.org/10.1162/99608f92.eee0b0da>, and Liboiron, _Pollution is Colonialism_, <https://www.dukeupress.edu/pollution-is-colonialism>.) 
 
+1. What do I already know about this subject? 
+2. Why am I studying this? 
+3. What do I expect or hope to find/learn, and why? 
+4. Who is affected by this topic, and how am I connected to them? 
+
+
+# Setup #
+**IMPORTANT**: Add all dependencies to `DESCRIPTION`
+
+```{r}
+
+```
+
+
+```{r}
 ## To check your answers locally, run the following: 
 ## testthat::test_dir('tests')
+```
 
-#' # Problem 1 #
-#' *Assign the value `2L` to `foo`.* 
+# Problem 1 #
+
+1. Assign the value `2L` to `foo`.
+
+```{r}
 foo = 2L
+```
+
